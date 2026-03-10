@@ -31,3 +31,78 @@ By the end you will learn how to:
 # Knowledge Graph Pipeline
 
 The system follows a typical research pipeline.
+
+
+
+---
+
+# Installation
+
+Clone the repository:
+git clone https://github.com/YOUR_USERNAME/knowledge-graph-tutorial.git
+
+cd knowledge-graph-tutorial
+
+Create the environment:
+
+
+Download NLP model:
+
+
+---
+
+# Example Knowledge Graph
+
+Example triples produced by the pipeline:
+(Albert Einstein, born_in, Germany)
+(Albert Einstein, worked_at, Princeton University)
+(Marie Curie, born_in, Poland)
+
+Graph representation:
+Albert Einstein → born_in → Germany
+Albert Einstein → worked_at → Princeton University
+Marie Curie → born_in → Poland
+
+
+---
+
+# Topics Covered
+
+This project gradually introduces advanced topics:
+
+### 1 Knowledge Graph Schema
+RDF, OWL, and SPARQL
+
+### 2 Graph Databases
+Building large knowledge graphs with Neo4j
+
+### 3 Knowledge Graph Embeddings
+Models such as:
+
+- TransE
+- RotatE
+- ComplEx
+- ConvE
+
+### 4 Knowledge Graph + LLMs
+Using graphs with modern AI systems:
+
+- Retrieval Augmented Generation
+- GraphRAG
+- Semantic reasoning
+
+---
+
+# References
+
+Some important papers about Knowledge Graphs and embeddings include:
+
+- Bordes et al. — Translating Embeddings for Modeling Multi-relational Data
+- Ji et al. — A Survey on Knowledge Graphs
+- Wang et al. — Knowledge Graph Embeddings for Link Prediction
+
+---
+
+# License
+
+MIT License
