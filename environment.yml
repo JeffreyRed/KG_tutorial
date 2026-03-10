@@ -1,0 +1,17 @@
+name: kg-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - spacy
+      - networkx
+      - pandas
+      - matplotlib
+      - pykeen
+      - jupyter
+      - rdflib
+      - neo4j
+      - langchain
+      - openai
